@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name             = "mmal-proto",
+    name             = "mmal-pandas",
     description      = "Meteorological Middleware Application Layer pandas bindings",
     url              = "https://github.com/hodgesds/mmbal-pandas",
-    version          = "0.0.0",
+    version          = "0.0.1",
     author           = "Daniel Hodges",
     author_email     = "hodges.daniel.scott@gmail.com",
     scripts          = [],
