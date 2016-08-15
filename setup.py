@@ -4,7 +4,7 @@ setup(
     name             = "mmal-pandas",
     description      = "Meteorological Middleware Application Layer pandas bindings",
     url              = "https://github.com/hodgesds/mmbal-pandas",
-    version          = "0.0.1",
+    version          = "0.0.2",
     author           = "Daniel Hodges",
     author_email     = "hodges.daniel.scott@gmail.com",
     scripts          = [],
@@ -13,6 +13,6 @@ setup(
     tests_require    = [ "tox", "nose" ],
     packages         = find_packages(
         where        = '.',
-        exclude      = ('tests*', 'bin*'),
+        exclude      = ('tests*', 'bin*', 'example*'),
     ),
 )
